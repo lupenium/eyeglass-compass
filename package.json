@@ -1,0 +1,28 @@
+{
+  "name": "eyeglass-compass",
+  "version": "1.0.0",
+  "description": "Compass - Eyeglass Module ",
+  "repository": "https://lupenium@github.com/lupenium/eyeglass-compass.git",
+  "author": "Luiz Pereira <luiz.tnk@gmail.com>",
+  "license": "MIT",
+  "style": "assets/_compass.scss",
+  "sass": "assets/_compass.scss",
+  "keywords": [
+    "compass",
+    "sass",
+    "css",
+    "eyeglass-module"
+  ],
+  "files": [
+    "assets",
+    "eyeglass-exports.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "name": "compass",
+    "needs": "^0.7.1"
+  }
+}
